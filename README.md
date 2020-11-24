@@ -3,7 +3,7 @@
  <p><a target="_blank" href="https://www.microchip.com" rel="nofollow"><img src="images/microchip.png" alt="MCHP" width="200";"></a></p>
 
 # dsPIC33C PWM/ADC Configuration: Lab 7 
-**ADC Trigger using PWM Channel**
+**ADC Trigger using PWM Generator**
 
 <p><center><a href="https://www.microchip.com/MA330048" rel="nofollow">
 <img src="images/ma330048.jpg" alt="dsPIC33CK Digital Power Plug-In Module" width="300"></a></center></p>
@@ -12,7 +12,7 @@
 
 ## Summary
 Learning how to use the PWM and ADC of dsPIC33C MP devices, Lab 7:
-Code example for dsPIC33CK and dsPIC33CH devices showing a basic  configuration of PWM Channels triggering ADC inputs. Inside the ADC Interrupt Service Routine (ISR) a test pin toggled to allow the user to observe trigger response delays. Also, Early Interrupt Generation, Alternate Working register with Compiler attributes and Sampling Time adjustment optimization feature are used to adjust the trigger response time.
+Code example for dsPIC33CK and dsPIC33CH devices showing a basic  configuration of PWM Generators triggering ADC inputs. Inside the ADC Interrupt Service Routine (ISR) a test pin toggled to allow the user to observe trigger response delays. Also, Early Interrupt Generation, Alternate Working register with Compiler attributes and Sampling Time adjustment optimization feature are used to adjust the trigger response time.
 
 - - -
 

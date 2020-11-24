@@ -5,7 +5,7 @@
       "metaDataVersion":"1.0.0",
       "name":"com.microchip.mplabx.project.dspic33ck-power-pwm-adc-trigger",
       "version":"1.0.0",
-      "displayName":"dsPIC33CK/CH-MP PWM/ADC Configuration: ADC Trigger using PWM Channel",
+      "displayName":"dsPIC33CK/CH-MP PWM/ADC Configuration: ADC Trigger using PWM Generator",
       "projectName":"dspic33ck-power-pwm-adc-trigger",
       "shortDescription":"PWM based ADC Trigger Configuration Example for dsPIC33CK-MP devices",
       "ide":{

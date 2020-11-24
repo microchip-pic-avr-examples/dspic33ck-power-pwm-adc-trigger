@@ -1,6 +1,6 @@
 # dspic33ck-power-pwm-adc-trigger, release v1.0.0
 ### Release Highlights
-<b><u> This is the initial release demonstrating  the basic cofiguration of ADC  triggered by High Resolution PWM Generator in dsPIC33C family of devices. It also highlights Early Interrupt Generation, Alternate Working register with Compiler attributes and Sampling Time adjustment optimization feature to adjust the trigger response time.
+<b><u> This is the initial release demonstrating  the basic cofiguration of ADC  triggered by High Resolution PWM Generator in dsPIC33C family of devices. It also highlights the Early Interrupt Generation, Alternate Working register with Compiler attributes and Sampling Time adjustment optimization feature to adjust the trigger response time.
 
 
 
