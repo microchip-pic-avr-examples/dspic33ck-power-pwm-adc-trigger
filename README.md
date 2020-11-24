@@ -52,17 +52,17 @@ Code example for dsPIC33CK and dsPIC33CH devices showing a basic  configuration 
 ## Operation
 After the device has been programmed and the MCU starts up, PWM1H triggers the Dedicated ADC Core 0. After around 277ns trigger response delay, the ADC Core O ISR test pin indicator TP55 toggles see screen capture below. The trigger response delay is optimized since the Early Interrupt Generator of ADC Core 0 is enabled.
 
-<br><center><img src="images/pwm1_adccore0.png" width="500"></center><br>
+<br><center><img src="images/pwm1_adccore0.PNG" width="500"></center><br>
 <br><center>*PWM1H triggers Dedicated ADC Core 0*</center><br>
 
 By pressing the on-board push button *USER* on the Digital Power Development Board, the PWM2H triggers the Dedicated ADC Core 1. After around 265ns trigger response delay, the ADC Core 1 ISR test pin indicator TP53 toggles see screen capture below. The trigger response delay is further reduced because aside from the Early Interrupt Generator is enabled, the ADC Core 1 ISR used the context attribute of the compiler to associate the ISR with alternate register set.
 
-<br><center><img src="images/pwm2_adccore1.png" width="500"></center><br>
+<br><center><img src="images/pwm2_adccore1.PNG" width="500"></center><br>
 <br><center>*PWM2H triggers Dedicated ADC Core 1*</center><br>
 
 By pressing the on-board push button *USER* again, the PWM3H triggers the Shared ADC Core 6. After around 335ns the ADC Core 6  ISR test pin indicator TP50 toggles see screen capture below. The configuration of Shared ADC is the same with the Dedicated ADC Core 1 except the Shared ADC Sampling Time is set to 8 TADCORE. Unlike the previous Dedicated ADC Cores, Shared ADC Core 6 does not have dedicated analog pin. This required extending the sampling time to ensure that the ADC connects to analog pin and properly sample the input signal before the conversion. However, this sample time adds trigger response delay.
 
-<br><center><img src="images/pwm3_adccore6.png" width="500"></center><br>
+<br><center><img src="images/pwm3_adccore6.PNG" width="500"></center><br>
 <br><center>*PWM3H triggers Shared ADC Core 6 *</center><br>
 
 
