@@ -63,7 +63,7 @@ By pressing the on-board push button *USER* on the Digital Power Development Boa
 By pressing the on-board push button *USER* again, the PWM3H triggers the Shared ADC Core 6. After around 335ns the ADC Core 6  ISR test pin indicator TP50 toggles see screen capture below. The configuration of Shared ADC is the same with the Dedicated ADC Core 1 except the Shared ADC Sampling Time is set to 8 TADCORE. Unlike the previous Dedicated ADC Cores, Shared ADC Core 6 does not have dedicated analog pin. This required extending the sampling time to ensure that the ADC connects to analog pin and properly sample the input signal before the conversion. However, this sample time adds trigger response delay.
 
 <br><center><img src="images/pwm3_adccore6.PNG" width="600"></center><br>
-<br><center>*PWM3H triggers Shared ADC Core 6 *</center><br>
+<br><center>*PWM3H triggers Shared ADC Core 6*</center><br>
 
 
 Please refer to section *FIRMWARE QUICK-START GUIDE* below for more information on the initialization process and code structure.
