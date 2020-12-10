@@ -37,15 +37,15 @@
       "peripherals":[
          "PWM",
          "ADC",
-		 "Timer"
+		 "TIMER"
       ],
       "keywords":[
-         "dsc",
-         "dspic",
-		 "power",
-		 "power-conversion",
-		 "power-supply",
-		 "smps"
+         "DSC",
+         "dsPIC",
+		 "Power",
+		 "Power Conversion",
+		 "Power Supply",
+		 "SMPS"
       ]
    }
 }
